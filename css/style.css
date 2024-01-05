@@ -1,7 +1,13 @@
-* {
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.5;
     text-align: justify;
+    box-sizing: inherit;
 }
 body {
     background-color: rgb(255, 252, 245);
